@@ -1,0 +1,154 @@
+
+body {
+    background-image: url(Justin_front_no_text.jpg);
+    background-position: center;
+    margin: 0;
+    font-family: Agdasima, sans-serif;
+    color: white;
+    text-align: center;
+}
+header {
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.8);
+    font-style: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+.logo img {
+    height: 36px;
+    width: 42 px;
+}
+.nav {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+.nav a:hover {
+    text-decoration: underline;
+}
+.hero {
+    background-color: rgba(0,0,0,.5);
+    background-size: cover;
+    background-position: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.hero h1 {
+    font-size: 36px;
+    margin: auto;
+    margin-bottom: 56px;
+    max-width: 944px;
+}
+.hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.subscribebutton {
+    background-color: #00c4a7;
+    color: white;
+    width: 140px;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    font-family: agdasima;
+    font-weight: 300;
+    margin: 0 5px;
+    border-radius: 25px;
+}
+
+.subscribebutton:hover {
+    background: #01a78e;
+    box-shadow: 0px 0px 40px 8px rgba(255, 170, 0, .4);
+
+}
+.subscribe-btn {
+    background-color: #00c4a7;
+    color: white;
+    width: 98px ;
+    height: 32px;
+    border: 0px;
+    border-radius: 16px;
+    font-size: 18px;
+    font-family: Agdasima;
+}
+
+.subscribebutton:hover {
+    background: #01a78e;
+    box-shadow: 0px 0px 40px 8px rgba(255, 170, 0, .4);
+}
+
+.infobutton {
+    width: 264px;
+    height: 50px;
+    background-color: 00c4a7;
+    color: black;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    font-family: agdasima;
+    font-weight: 300;
+    margin: 0 5px;
+    border-radius: 25px;
+}
+
+.infobutton:hover
+ {
+    background-color: rgb(212, 212, 212);
+    box-shadow: 0px 0px 40px 8px rgba(255, 170, 0, .4);}
+.stories {
+    background-color: rgba(0, 20, 16, .9);
+    padding: 50px 20px;
+    height: 760px;
+}
+.stories h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+.book {
+    min-width: 80%;
+    max-width: 932px;
+    margin: auto;
+    text-align: left;
+    color: white;
+    display: flex;
+}
+.book img {
+    border-radius: 5px;
+    max-width: 304px;
+}
+.book h3 {
+    vertical-align: text-top;
+    font-size: 26px;
+    margin: 10px 10px 5px;
+    display: inline-block;
+}
+.book p {
+    font-size: 24px;
+    display: inline-block;
+    margin-left: 10px;
+    max-width: 610px;
+}
+
+.bookdescription {
+    max-width: 610px;
+}
+.format-icons {
+    margin-top: 10px;
+}
+.format-icons i {
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.bookInfoAndBuy {
+    display: inline-block;
+}
