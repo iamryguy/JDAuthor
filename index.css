@@ -188,6 +188,22 @@ header {
             border-radius: 13px;
         }
         
+
+        @media screen and (max-width: 768px) {
+            .book {
+                flex-direction: column; /* Stack the image and text vertically */
+                text-align: center; /* Optional: Center text under the image */
+            }
+        
+            .book img {
+                margin-bottom: 20px; /* Add some space below the image */
+                margin-inline: auto;
+            }
+        
+            .book h3, .book p {
+                font-size: 18px; /* Smaller font size for mobile */
+                margin: 5px 0; /* Adjust margin to fit better on smaller screens */
+            }
     }
 
 
