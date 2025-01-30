@@ -198,7 +198,7 @@ header {
             .book img {
                 margin-bottom: 20px; /* Add some space below the image */
                 margin-inline: auto;
-                width: 160px;
+                width: 240px;
             }
         
             .book h3, .book p {
