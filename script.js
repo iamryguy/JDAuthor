@@ -15,3 +15,5 @@ function changeHeading() {
 
 // Change heading every 4 seconds
 setInterval(changeHeading, 4000);
+
+//test
