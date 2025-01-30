@@ -76,7 +76,7 @@ header {
 .subscribe-btn {
     background-color: #00c4a7;
     color: white;
-    width: 98px ;
+    width: 88px ;
     height: 32px;
     border: 0px;
     border-radius: 16px;
@@ -90,7 +90,7 @@ header {
 }
 
 .infobutton {
-    width: 264px;
+    width: 258px;
     height: 50px;
     background-color: 00c4a7;
     color: black;
@@ -161,32 +161,7 @@ header {
     .hero h1 {
         font-size: 24px;  /* Smaller text on mobile */
     }
-    .subscribebutton {
-        background-color: #00c4a7;
-        color: white;
-        width: 70px;
-        height: 25px;
-        border: none;
-        cursor: pointer;
-        font-size: 12px;
-        font-family: agdasima;
-        font-weight: 300;
-        margin: 0 5px;
-        border-radius: 13px;
-    }
-     .infobutton {
-        width: 132px;
-        height: 25px;
-            background-color: 00c4a7;
-            color: black;
-            border: none;
-            cursor: pointer;
-            font-size: 12px;
-            font-family: agdasima;
-            font-weight: 300;
-            margin: 0 5px;
-            border-radius: 13px;
-        }
+   
         
 
         @media screen and (max-width: 768px) {
