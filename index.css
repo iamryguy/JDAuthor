@@ -82,6 +82,8 @@ header {
     border-radius: 16px;
     font-size: 18px;
     font-family: Agdasima;
+    padding-bottom: 8px;
+    padding-top: 8px;
 }
 
 .subscribebutton:hover {
@@ -101,6 +103,8 @@ header {
     font-weight: 300;
     margin: 0 5px;
     border-radius: 25px;
+    padding-bottom: 8px;
+    padding-top: 8px;
 }
 
 .infobutton:hover
