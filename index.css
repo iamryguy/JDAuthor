@@ -198,11 +198,13 @@ header {
             .book img {
                 margin-bottom: 20px; /* Add some space below the image */
                 margin-inline: auto;
+                width: 160px;
             }
         
             .book h3, .book p {
                 font-size: 18px; /* Smaller font size for mobile */
                 margin: 5px 0; /* Adjust margin to fit better on smaller screens */
+                text-align: left;
             }
     }
 
