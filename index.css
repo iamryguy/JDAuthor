@@ -189,6 +189,16 @@ header {
                 margin: 5px 0; /* Adjust margin to fit better on smaller screens */
                 text-align: left;
             }
-    }
+
+            body {
+                background-image: url(Justin_front_no_text.jpg);
+                background-position: center-top;
+                background-size: 100vh;
+                background-attachment: fixed;
+                margin: 0;
+                font-family: Agdasima, sans-serif;
+                color: white;
+                text-align: center;
+             }
 
 }
