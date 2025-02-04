@@ -1,7 +1,9 @@
 
 body {
     background-image: url(Justin_front_no_text.jpg);
-    background-position: center;
+    background-position: center-top;
+    background-size: 100vw;
+    background-attachment: fixed;
     margin: 0;
     font-family: Agdasima, sans-serif;
     color: white;
@@ -29,7 +31,7 @@ header {
 .nav a {
     color: white;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 24px;
 }
 .nav a:hover {
     text-decoration: underline;
@@ -38,14 +40,14 @@ header {
     background-color: rgba(0,0,0,.5);
     background-size: cover;
     background-position: center;
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: 180px;
+    padding-bottom: 180px;
 }
 .hero h1 {
-    font-size: 36px;
+    font-size: 64px;
     margin: auto;
     margin-bottom: 56px;
-    max-width: 944px;
+    max-width: 1200px;
 }
 
 
@@ -76,14 +78,15 @@ header {
 .subscribe-btn {
     background-color: #00c4a7;
     color: white;
-    width: 88px ;
-    height: 32px;
-    border: 0px;
-    border-radius: 16px;
-    font-size: 18px;
-    font-family: Agdasima;
-    padding-bottom: 8px;
-    padding-top: 8px;
+    width: 140px;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    font-family: agdasima;
+    font-weight: 300;
+    margin: 0 5px;
+    border-radius: 25px;
 }
 
 .subscribebutton:hover {
@@ -117,12 +120,12 @@ header {
     height: 760px;
 }
 .stories h2 {
-    font-size: 28px;
+    font-size: 40px;
     margin-bottom: 30px;
 }
 .book {
     min-width: 80%;
-    max-width: 932px;
+    max-width: 1200px;
     margin: auto;
     text-align: left;
     color: white;
@@ -134,15 +137,16 @@ header {
 }
 .book h3 {
     vertical-align: text-top;
-    font-size: 26px;
+    font-size: 32px;
     margin: 10px 10px 5px;
     display: inline-block;
 }
 .book p {
-    font-size: 24px;
+    font-size: 32px;
     display: inline-block;
     margin-left: 10px;
-    max-width: 610px;
+    margin-top: 16px;
+    margin-bottom: 16px;
 }
 
 .bookdescription {
